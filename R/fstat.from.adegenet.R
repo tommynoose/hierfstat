@@ -45,7 +45,7 @@
 #' \dontrun{
 #' if(require(adegenet)){
 #' data(nancycats)
-#'}
+#'
 #'
 #' ## Fst, Fis, Fit
 #' ## using hierfstat
@@ -67,7 +67,7 @@
 #' apply(fsttab, 2, mean)
 #' }
 #' }
-#'
+#' }
 fstat <- function(x, pop=NULL, fstonly=FALSE){
     ## cat("\nSorry, hierfstat package has been disabled - this function will be restored in a future release.\n")
     ## return(invisible())

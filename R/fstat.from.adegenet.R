@@ -45,7 +45,7 @@
 #' \dontrun{
 #' if(require(adegenet)){
 #' data(nancycats)
-#'
+#'}
 #'
 #' ## Fst, Fis, Fit
 #' ## using hierfstat
